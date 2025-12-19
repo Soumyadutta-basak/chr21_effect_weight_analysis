@@ -29,6 +29,8 @@ After preprocessing, the dataset contained only harmonized variants from chromos
 
 A histogram was generated to visualize the distribution of effect weights.
 
+The histogram shows how many chromosome 21 variants fall into different effect-weight ranges, and the mean and median help us understand the central tendency and symmetry of the distribution
+
 ###################---------------------------------------------------------------------ASSIGNMENT 2--------------------------------------------------------------------------------------
 
 gsutil -m cp -r gs://BucketA/P21 gs://BucketB/
