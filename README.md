@@ -18,3 +18,11 @@ The following preprocessing steps were performed:
    - `hm_chr`
    - `hm_pos`
 4. Saved the processed data into a clean TSV file for downstream analysis.
+
+####Exploratory Data Analysis 
+
+It was performed to understand the distribution and characteristics of effect weights for variants mapped to chromosome 21.
+
+After preprocessing, the dataset contained only harmonized variants from chromosome 21 along with their corresponding effect weights and genomic positions. The primary focus of the exploratory analysis was the effect_weight column, as it represents the contribution of each genetic variant to the polygenic score.
+
+A histogram was generated to visualize the distribution of effect weights.
