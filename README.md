@@ -1,3 +1,5 @@
+###################-----------------------------------------------------------------ASSIGNMENT 1 -----------------------------------------------------------------------------------------
+
 ##### Overview
 This repository contains the data preprocessing and exploratory analysis performed on the polygenic score (PGS) dataset **PGS001298** related to obesity.  
 The analysis includes chromosome-specific data extraction, effect weight visualization, and insights derived from exploratory data analysis (EDA).
@@ -26,3 +28,13 @@ It was performed to understand the distribution and characteristics of effect we
 After preprocessing, the dataset contained only harmonized variants from chromosome 21 along with their corresponding effect weights and genomic positions. The primary focus of the exploratory analysis was the effect_weight column, as it represents the contribution of each genetic variant to the polygenic score.
 
 A histogram was generated to visualize the distribution of effect weights.
+
+###################---------------------------------------------------------------------ASSIGNMENT 2--------------------------------------------------------------------------------------
+
+gsutil -m cp -r gs://BucketA/P21 gs://BucketB/
+
+-m → enables parallel (multi-threaded/multi-processing) transfer.
+cp -r → recursively copies the folder P21 and all its contents.
+The destination bucket BucketB will have the same folder structure (P21).
+
+
